@@ -29,8 +29,8 @@ attr_accessor :alfabeto
   end
 
   def printer
-    puts "#{@alfa[1].cirilico}"
-    puts "#{@alfa[1].latino}"
+    puts "This is a letter in the cirilic alphabet: #{@alfa[1].cirilico}"
+    puts "This would be the counterpart from the latin alphabet: #{@alfa[1].latino}"
   end
 end
 
